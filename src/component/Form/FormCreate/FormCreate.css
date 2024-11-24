@@ -1,0 +1,25 @@
+.create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.create .left label,input{
+margin-top: 20px;
+display: block;
+}
+.create .left button{
+    margin-top: 20px;
+}
+.right{
+    border: 2px dashed blue;
+    width: 50%;
+    height: 50%;
+  
+}
+.right input{
+    display: none;
+    width: 50%;
+}
+.right img{
+cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.Sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgb(39,49,66);
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+ a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    position: relative;
+}
+.Sidebar .menu h1{
+    margin-bottom: 32px;
+}
+a.active::before{
+    content: "";
+    width: 10px;
+    height: 42px;
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 128, 255);
+    border-radius: 0 10px 10px 0;
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(72, 128, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
